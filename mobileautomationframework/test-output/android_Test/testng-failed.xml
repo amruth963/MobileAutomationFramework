@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [android_Test]" parallel="tests">
+  <test thread-count="2" name="android_test_execution_on_Pixel3XLdevice(failed)" parallel="tests">
+    <parameter name="port" value="4733"/>
+    <parameter name="platformVersion" value="8.1"/>
+    <parameter name="udid" value="emulator-5556"/>
+    <parameter name="device" value="Pixel3XL"/>
+    <classes>
+      <class name="com.suitexecutor.GroupScreenTest">
+        <methods>
+          <include name="clickOnGroupMenuBtn"/>
+          <include name="getDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.suitexecutor.GroupScreenTest -->
+    </classes>
+  </test> <!-- android_test_execution_on_Pixel3XLdevice(failed) -->
+  <test thread-count="2" name="android_test_execution_on_PixelXLdevice(failed)" parallel="tests">
+    <parameter name="port" value="4723"/>
+    <parameter name="platformVersion" value="8.1"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <parameter name="device" value="PixelXL"/>
+    <classes>
+      <class name="com.suitexecutor.GroupScreenTest">
+        <methods>
+          <include name="clickOnGroupMenuBtn"/>
+          <include name="getDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.suitexecutor.GroupScreenTest -->
+    </classes>
+  </test> <!-- android_test_execution_on_PixelXLdevice(failed) -->
+</suite> <!-- Failed suite [android_Test] -->

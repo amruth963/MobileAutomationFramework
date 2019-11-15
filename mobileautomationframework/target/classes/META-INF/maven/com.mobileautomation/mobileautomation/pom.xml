@@ -65,7 +65,7 @@
 		<dependency>
 			<groupId>com.github.saikrishna321</groupId>
 			<artifactId>AppiumTestDistribution</artifactId>
-			<version>11.0.0</version>
+			<version>11.0.1</version>
 		</dependency>
 
 		<!-- <dependency> <groupId>io.appium</groupId> <artifactId>java-client</artifactId> 
@@ -103,6 +103,16 @@
 			<artifactId>tess4j</artifactId>
 			<version>4.4.0</version>
 		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-jvm -->
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-jvm</artifactId>
+			<version>1.2.5</version>
+			<type>pom</type>
+		</dependency>
+
 
 
 
